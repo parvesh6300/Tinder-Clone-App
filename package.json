@@ -1,0 +1,34 @@
+{
+	"name": "tinder-react-native",
+	"description": "Tinder React Native clone",
+	"version": "0.2.0",
+	"author": "Steven Persia",
+	"licence": "MIT",
+	"homepage": "https://github.com/stevenpersia/tinder-react-native",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.6.3",
+		"react-native": "^0.59.9",
+		"react-native-card-stack-swiper": "^1.1.0",
+		"react-native-gesture-handler": "^1.0.12",
+		"react-navigation": "^3.0.9"
+	},
+	"devDependencies": {
+		"babel-jest": "^24.8.0",
+		"jest": "^24.8.0",
+		"metro-react-native-babel-preset": "0.51.1",
+		"react-test-renderer": "16.6.3"
+	},
+	"jest": {
+		"preset": "react-native"
+	},
+	"rnpm": {
+		"assets": [
+			"./assets/fonts/"
+		]
+	}
+}
